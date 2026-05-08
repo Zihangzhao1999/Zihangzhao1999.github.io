@@ -15,7 +15,7 @@ This manual is for users installing the Skylar desktop app for the first time. A
 
 ## 2. Prepare Google OAuth `credentials.json`
 
-Skylar uses the Gmail and Google Drive APIs, so you need a Google OAuth client file named `credentials.json`. Instructions for obtaining `credentials.json` are in the Google Gmail and Drive API setup section below.
+Skylar uses the Gmail and Google Drive APIs, so you need a Google OAuth client file named `credentials.json`. Instructions for obtaining `credentials.json` are in the Google Gmail and Drive API setup section 9.
 
 Google authorization must include these scopes:
 
@@ -39,7 +39,7 @@ On the **Setup** page:
 
 In the `Local runtime configuration` section, fill in these key fields:
 
-- `Asana personal access token`: the Asana PAT used to read from or write to Asana. Instructions for obtaining an Asana PAT are in the Asana API setup section below.
+- `Asana personal access token`: the Asana PAT used to read from or write to Asana. Instructions for obtaining an Asana PAT are in the Asana API setup section 10.
 - `Gmail to Asana project name`: the Asana project name where Gmail automation creates tasks, for example `Skylar Test`.
 - `Asana request timeout seconds`: the Asana request timeout. The default is `30`.
 - `LLM API Key`: the DashScope API key.
